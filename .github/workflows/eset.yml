@@ -87,7 +87,7 @@ jobs:
         if: runner.os != 'Windows'
         shell: bash
         run: |
-          cd ESET-KeyGen
+          cd .
           if [[ "$RUNNER_OS" == "macOS" ]]; then
             brew install python@3.11 || true
           else
